@@ -27,6 +27,7 @@ import largeObject from './large.js'
 
 Object.assign(Postgres, {
   PostgresError,
+  Query,
   toPascal,
   pascal,
   toCamel,

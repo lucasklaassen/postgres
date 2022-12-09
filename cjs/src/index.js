@@ -27,6 +27,7 @@ const largeObject = require('./large.js')
 
 Object.assign(Postgres, {
   PostgresError,
+  Query,
   toPascal,
   pascal,
   toCamel,
